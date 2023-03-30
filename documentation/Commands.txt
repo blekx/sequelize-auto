@@ -1,0 +1,11 @@
+
+folders and ./db/db.sqlite file
+
+npm install sequelize sqlite3
+npm install sequelize-auto
+npm install typescript
+tsc --init
+
+node_modules\.bin\sequelize-auto -o "./db/models" -d "./db/db.sqlite" -e sqlite -l ts
+
+tsc
